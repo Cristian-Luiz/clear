@@ -1,0 +1,35 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Machine Learning</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+    <div class="container" style="text-align: center;">
+
+    <header class="jumbotron" style="background-color:#104873; color:white;">
+    <h1>Sistema de predição de produtos de limpeza</h1>
+<p>Alunos: Cristian Luiz e Lara Hemeterio 7°P Sis Info</p>
+    </header>
+
+    <button type="button" class="btn btn-outline-primary" onclick="init()">Iniciar Reconhecimento </button>
+   <br>
+    <br>
+    <div id="webcam-container"></div>
+    <br>
+    <div class="display-3"id="label-container"></div>
+    </div>
+
+    <footer class="painel-footer" style="text-align: center; background-color:#104873; color: white;">
+        todos os direitos reservados.
+        </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>  
+<script src="tensor.js"></script>
+    </body>
+</html>
